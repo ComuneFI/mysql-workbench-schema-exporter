@@ -1,5 +1,5 @@
 {
-	"name" : "mysql-workbench-schema-exporter/mysql-workbench-schema-exporter",
+	"name" : "comunedifirenze/mysql-workbench-schema-exporter",
 	"type" : "library",
 	"description" : "MySQL Workbench Schema Exporter",
 	"keywords" : [
@@ -13,7 +13,7 @@
 		"zend",
 		"sequelizejs"
 	],
-	"homepage" : "https://github.com/mysql-workbench-schema-exporter/mysql-workbench-schema-exporter",
+	"homepage" : "https://github.com/comunedifirenze/mysql-workbench-schema-exporter",
 	"license" : "MIT",
 	"authors" : [{
 			"name" : "Johannes Mueller",
@@ -31,7 +31,7 @@
 	],
 	"require" : {
 		"php" : ">=5.4.0",
-		"doctrine/inflector" : "^1.0.0"
+		"doctrine/inflector" : "^1.0||2.0"
 	},
 	"bin" : [
 		"bin/mysql-workbench-schema-export",
